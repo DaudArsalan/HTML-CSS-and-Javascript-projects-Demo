@@ -27,7 +27,7 @@ export default function Cards() {
       </h2>
       <div className="w-20 h-1 block m-auto mt-3 bg-[#f0db51]"></div>
 
-      <div className="w-full container mt-14 flex flex-wrap gap-8 justify-center">
+      <div className="max-w-full container mt-14 px-5 flex flex-wrap gap-8 justify-center">
         <CardItems
           image={alarmclock}
           link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Alarm%20Clock/"
