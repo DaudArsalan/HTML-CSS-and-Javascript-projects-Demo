@@ -20,6 +20,101 @@ import toggletheme from "./img/toggletheme.png";
 import weatherapp from "./img/weatherapp.png";
 
 export default function Cards() {
+  const cardData = [
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Alarm%20Clock/",
+      image: alarmclock,
+      name: "Alarm Clock",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Blackjack%20Game/",
+      image: blackjackgame,
+      name: "Blackjack Game",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/CRUD%20App/",
+      image: crudapp,
+      name: "CRUD App",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Calculator/",
+      image: calculator,
+      name: "Calculator",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Form%20Validation/",
+      image: formvalidation,
+      name: "Form Validation",
+    },
+
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Lead%20Tracker%20Chrome%20Extension/",
+      image: leadtracker,
+      name: "Chrome Extension",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Weather%20App/",
+      image: weatherapp,
+      name: "Weather App",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Toggle%20Theme%20Using%20JavaScript/",
+      image: toggletheme,
+      name: "Toggle Theme",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/To-do%20List/",
+      image: todolist,
+      name: "To-Do List",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Random%20Password%20Generator/",
+      image: passwordgenerator,
+      name: "Password Generator",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Random%20Paragraph%20Generator/",
+      image: paragraphgenerator,
+      name: "Paragraph Generator",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Random%20Color%20Generator/",
+      image: colourgenerator,
+      name: "Color Generator",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Quiz%20App/",
+      image: quizapp,
+      name: "Quiz App",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Notes%20App/",
+      image: notesapp,
+      name: "Notes App",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/New%20Year%20CountDown%20Timer/",
+      image: countdowntimer,
+      name: "Countdown Timer",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Light%20Bulb%20Project/",
+      image: lightbulb,
+      name: "Light Bulb Project",
+    },
+
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Library%20Project/",
+      image: libraryproject,
+      name: "Library Project",
+    },
+    {
+      link: "https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Drag%20and%20Drop%20Elements/",
+      image: draganddrop,
+      name: "Drag and Drop Elements",
+    },
+  ];
+
   return (
     <div className="py-10 max-w-full">
       <h2 className="text-3xl md:text-4xl pt-10 text-[#102a42] font-bold text-center tracking-widest">
@@ -28,96 +123,16 @@ export default function Cards() {
       <div className="w-20 h-1 block m-auto mt-3 bg-[#f0db51]"></div>
 
       <div className="max-w-full container mt-14 px-5 flex flex-wrap gap-8 justify-center">
-        <CardItems
-          image={alarmclock}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Alarm%20Clock/"
-          name="Alarm Clock"
-        />
-        <CardItems
-          image={blackjackgame}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Blackjack%20Game/"
-          name="Blackjack Game"
-        />
-        <CardItems
-          image={crudapp}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/CRUD%20App/"
-          name="CRUD App"
-        />
-        <CardItems
-          image={calculator}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Calculator/"
-          name="Calculator"
-        />
-        <CardItems
-          image={formvalidation}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Form%20Validation/"
-          name="Form Validation"
-        />
-        <CardItems
-          image={leadtracker}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Lead%20Tracker%20Chrome%20Extension/"
-          name="Chrome Extension"
-        />
-        <CardItems
-          image={weatherapp}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Weather%20App/"
-          name="Weather App"
-        />
-        <CardItems
-          image={toggletheme}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Toggle%20Theme%20Using%20JavaScript/"
-          name="Toggle Theme"
-        />
-        <CardItems
-          image={todolist}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/To-do%20List/"
-          name="To-Do List"
-        />
-        <CardItems
-          image={passwordgenerator}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Random%20Password%20Generator/"
-          name="Password Generator"
-        />
-        <CardItems
-          image={paragraphgenerator}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Random%20Paragraph%20Generator/"
-          name="Paragraph Generator"
-        />
-        <CardItems
-          image={colourgenerator}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Random%20Color%20Generator/"
-          name="Color Generator"
-        />
-        <CardItems
-          image={quizapp}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Quiz%20App/"
-          name="Quiz App"
-        />
-        <CardItems
-          image={notesapp}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Notes%20App/"
-          name="Notes App"
-        />
-        <CardItems
-          image={countdowntimer}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/New%20Year%20CountDown%20Timer/"
-          name="Countdown Timer"
-        />
-        <CardItems
-          image={lightbulb}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Light%20Bulb%20Project/"
-          name="Light Bulb Project"
-        />
-        <CardItems
-          image={libraryproject}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Library%20Project/"
-          name="Library Project"
-        />
-        <CardItems
-          image={draganddrop}
-          link="https://daudarsalan.github.io/HTML-CSS-and-JavaScript-small-projects/Drag%20and%20Drop%20Elements/"
-          name="Drag and Drop Elements"
-        />
+        {cardData.map((card) => {
+          return (
+            <CardItems
+              key={card.link}
+              image={card.image}
+              link={card.link}
+              name={card.name}
+            />
+          );
+        })}
       </div>
     </div>
   );
