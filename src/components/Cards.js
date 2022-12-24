@@ -21,7 +21,7 @@ import weatherapp from "./img/weatherapp.png";
 
 export default function Cards() {
   return (
-    <div className="py-10 ">
+    <div className="py-10 max-w-full">
       <h2 className="text-3xl md:text-4xl pt-10 text-[#102a42] font-bold text-center tracking-widest">
         All Projects
       </h2>
